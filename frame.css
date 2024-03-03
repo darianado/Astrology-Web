@@ -1,0 +1,29 @@
+.col_marg{
+	width:50%;
+	float:left;
+	padding:10px;
+}
+body{
+	overflow:hidden;
+	margin:0;
+	margin-top:-25px;
+	padding:0;
+}
+p{
+	text-align:justify;
+	padding:10px;
+	font-size:large;
+}
+.col_marg p{
+	font-size:16px;
+}
+.col_marg img{
+	float:right;
+	width:100px;
+	height:100px;
+}
+img{
+	width:50%;
+	float:right;
+	margin-left:10px;
+}

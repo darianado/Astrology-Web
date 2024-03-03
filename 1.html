@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>AL-Zodiile</title>
+	<link rel="stylesheet" href="style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+</head>
+
+<body>
+	<div id="tot">
+
+		<header>
+			<div id="titlu_bara">
+				<a href="index.php">
+					<h1>AstroLearnogy</h1>
+				</a>
+			</div>
+			<div id="titlu">
+				<p id="titlu1">Zodiile</p>
+				<p id="titlu2">astrograma</p>
+			</div>
+		</header>
+
+		<div class="main">
+
+			<div class="stg_dr">
+				
+			</div>
+
+			<div class="mij">
+				<br>
+				<img src="media/astrograma.png" id="astrograma">
+				<p> Astrograma natală, horoscopul nativ sau harta natală (<b>Natal Chart</b> în engleză)
+					este o reprezentare grafică a cerului într-un moment exact, de exemplu când cineva se naște.
+					<br><br><br>
+					<b>Astrologia natală</b>, prin intermediul Astrogramei, determină poziția în care se afla fiecare
+					constelație în momentul nașterii noastre. Aceasta ne poate ajuta să realizăm o introspecție
+					extrem de profundă, să ne dăm seama de ce ne-am născut cu anumite calități sau neajunsuri,
+					și cum să determinăm care este menirea noastră, și sensul venirii noastre pe acest Pământ.
+					Aceasta este pseudoștiința
+					care se ocupă cu studiul acestor diagrame personalizate, iar conform acesteia pozițiile relative ale
+					obiectelor cerești pot oferi informații despre personalitatea, relațiile umane și alte probleme
+					legate de viața umană. A nu se confunda totuși cu astronomia, știința soră, care studiază
+					aceleași elemente. Cele două au împartășit același titlu pentru o perioadă, datând încă
+					din al II-lea mileniu Î.Hr. Multe culturi și religii au acordat importanță evenimentelor astronomice
+					ca semne ale comunicărilor divine. <br><br><br>
+					<i>Care este zodia ta?</i> este o întrebare inevitabilă din viața noastră pe
+					baza a cărui răspuns o ascutăm pe Neti la TV, citim sfaturi și preziceri pentru ziua noastră dintr-o
+					revistă
+					dimineața la cafea sau inițiem discuții cu prietenii născuți în aceiași lună. Acest <b>horoscop</b>
+					la care poate am mai făcut referire până acum derivă de la o entitate complexă cu o strucură
+					logică pe care o vei descoperi și înțelege mai bine mai departe. </p> <br><br>
+				<h3 style="font-size:25px;">Ce spune zodia mea despre mine?</h3><br><br>
+
+
+				<div class="main" style="background-color:transparent;height: 400px;">
+
+					<div class="col_marg" style="width:22%">
+						<h2><br><br><br><br><br>Data nașterii<br></h2>
+						<form method="post" action="element.php" target="el_cal">
+
+							<label><b>ziua</b></label>
+
+							<select name="day">
+								<option>-</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+								<option value="31">31</option>
+							</select>
+							<br>
+							<label><b> luna</b></label>
+
+							<select name="month">
+								<option>-</option>
+								<option value="ian">Ian</option>
+								<option value="feb">Feb</option>
+								<option value="mar">Mar</option>
+								<option value="apr">Apr</option>
+								<option value="mai">Mai</option>
+								<option value="iun">Iun</option>
+								<option value="iul">Iul</option>
+								<option value="aug">Aug</option>
+								<option value="sep">Sep</option>
+								<option value="oct">Oct</option>
+								<option value="noi">Noi</option>
+								<option value="dec">Dec</option>
+							</select><br>
+							<br>
+							<input type="submit" name="submit" value="despre zodia ta">
+						</form>
+					</div>
+
+					<div class="col_mij" style="width:88%;">
+						<iframe name="el_cal" src="element.php"></iframe>
+					</div>
+
+				</div>
+				<br><br>
+				<table align="center">
+					<tr>
+						<th></th>
+						<th>foc</th>
+						<th>pământ</th>
+						<th>apă</th>
+						<th>aer</th>
+					</tr>
+					<tr>
+						<th>cardinal</th>
+						<td>berbec</td>
+						<td>capricorn</td>
+						<td>rac</td>
+						<td>balanță</td>
+					</tr>
+					<tr>
+						<th>fix</th>
+						<td>leu</td>
+						<td>taur</td>
+						<td>scorpion</td>
+						<td>vărsător</td>
+					</tr>
+					<tr>
+						<th>mutabil</th>
+						<td>săgetător</td>
+						<td>fecioară</td>
+						<td>pești</td>
+						<td>gemeni</td>
+					</tr>
+				</table>
+
+				<p style="padding-left:100px;padding-right:100px;">Înțelegem astfel că trăsăturile fiecărei zodii
+					pleacă de la aceasta combinație unică a celor două calități.
+					În continuare pentru înțelegerea eficientă a unei astrograme
+					este foarte important să avem o perpespectivă
+					asupra tuturor celor 12 zodii, deoarece odată cu introducerea
+					planetelor, vom descoperii că nu doar una este suficientă pentru a ne descrie.
+					Deoarece discuțiile sunt infinite despre comportamentul exact al unei constelații,
+					și pentru că scopul nostru este de a ne interpreta din propria viziune astrograma, iată
+					cum îți poți aminti mereu ce definește fiecare zodie în ordine:
+				</p>
+
+				<br>
+				<h2>Berbecul</h2>
+				<h3>, cea mai tânără zodie</h3><br>
+				<p>Berbecii au cel mai tânăr suflet și cea mai mare dorință de a experimenta totul.
+					Ei trăiesc ca și cum ar face totul pentru prima dată, chiar dacă au mai trecut prin
+					experiențe asemănătoare. De fiecare dată este nou totul pentru ei și de aceea se întâmplă
+					adesea să se împiedice, să greșească și să piardă. Dar nu-i nimic! O iau de la capăt,
+					pentru că viața este o experiență continuă.</p>
+				<br><br>
+				<h2>Taurul</h2>
+				<h3>copilărește multă vreme</h3><br>
+				<p>Sufletele nativilor Tauri sunt suflete de copii, deschise și sincere,
+					pregătite pentru joacă și pentru lucrurile minunate pe care le văd.
+					Taurii copilăresc multă vreme înainte de a se resemna cu vârsta lor.
+					Învață mai greu ce este al lor și ce este al altora și nu poate fi luat.
+					Le place să adune, să acumuleze, să aibă… le place confortul material și se
+					înconjoară cu mulți prieteni ca viața să fie cât mai colorată și veselă.</p>
+				<br><br>
+				<h2>Gemenii</h2>
+				<h3>, niște adolescenți rebeli</h3><br>
+				<p>Din punct de vedere spiritual, Gemenii ar putea fi considerați niște adolescenți,
+					undeva între 14 și 21 de ani. Doar că adolescența lor se extinde de-a lungul anilor până pe la
+					40 sau chiar 50 de ani. Sunt plini de energie, sfidează regulile, vor să acapareze atenția
+					ca niște copii și vor să facă toate lucrurile pe care alții le refuză. Întotdeauna trebuie
+					să fie ceva nou și aventuros în viața lor.</p>
+				<br><br>
+				<h2>Racul</h2>
+				<h3> dă înapoi să fie mereu tânăr</h3><br>
+				<p>Tineri adulți, emotivi și sensibili, ascunși, dar și generoși,
+					Racii au suflete foarte tinere, care se exprimă cu dificultate.
+					Ei încearcă să își construiască un zid de apărare înăuntrul căruia
+					să se simtă în siguranță și, în același timp, ar vrea să fie în centrul
+					atenției și iubiți de toată lumea. Au suficient curaj să se desprindă de
+					rădăcinile părinților, pentru a zbura mai departe, dar își dau seama că trebuie
+					să se ancoreze pe rădăcinile proprii cât de curând.</p>
+				<br><br>
+				<h2>Leul</h2>
+				<h3>, un suflet deschis și tranșant</h3><br>
+				<p>Spirite tinere, dar mature, Leii lasă jos masca și îți arată cine sunt cu adevărat.
+					Au încheiat jocurile din copilărie, au trecut peste experiențele înșelătoare ale
+					adolescenței și vor ca viața să le ofere totul pe drept. Îți place sau nu, trebuie
+					să îi iei așa cum sunt și să fii deschis în preajma lor. Sufletul lor tânăr este
+					curajos și nu se teme de eșecuri, pentru că știe că viața are mereu evenimente neprevăzute.</p>
+				<br><br>
+				<h2>Fecioara</h2>
+				<h3>, un suflet matur și bine ancorat în realitate</h3><br>
+				<p>S-ar putea spune că Fecioarele pot fi încadrate la grupa de vârstă 35 – 42 de ani.
+					Este vârsta la care sufletul își cunoaște bine limitele, calitățile și nevoile.
+					Nativii Fecioare știu ce vor de la viață, sunt responsabili, sunt organizați,
+					se ocupă de orice problemă fără să se plângă pentru că au suficientă maturitate
+					de a nu aștepta ajutorul nimănui. Fac bine diferența dintre ceea ce vor și ceea ce pot,
+					fără să se plângă.</p>
+				<br><br>
+				<h2>Balanța</h2>
+				<h3>, un echilibru între vârste</h3><br>
+				<p>Spiritul Balanței ar putea fi comparat cu un adult matur, ușor grizonat,
+					care acceptă viața așa cum este! Nativii Balanței au personalități complexe și
+					complet dezvoltate, dar au nevoie de un partener pe măsură să le rotunjească viața,
+					să se simtă împliniți sufletește. Ei pot avea totul singuri, dar dacă nu împărtășesc
+					bucuria cu cineva, sufletul lor se ofilește. Viața lor este echilibrată cu adevărat
+					când au parte de dragoste.</p>
+				<br><br>
+				<h2>Scorpionul</h2>
+				<h3>, în pragul senectuții</h3><br>
+				<p>Spiritul Scorpionului este prins în criza vârstei mijlocii, undeva între 50 și
+					56 de ani, când știi că se apropie bătrânețea, dar te simți încă tânăr și simți
+					că mai ai multe de făcut. Ar face orice să o ia de la capăt și caută șanse noi acolo
+					unde nimeni nu s-ar mai gândi să încerce. Scorpionii au nevoie de multă energie și
+					o vor acapara de oriunde, dintr-o iubire nouă, din provocările de zi cu zi, din
+					ambițiile pe care și le împlinesc.</p>
+				<br><br>
+				<h2>Săgetătorul</h2>
+				<h3>, vârsta la care poți renunța la conformism</h3><br>
+				<p>Dacă ești născută în zodia Săgetător, vârsta reală a zodiei tale este vârsta alegerilor.
+					Săgetătorilor nu le place să respecte normele și obligațiile sociale. Sufletul lor a adunat multe,
+					a gustat din fiecare și este la vârsta la care poate face alte alegeri. Când poți lăsa
+					responsabilitățile în urmă, pentru că deja ți-ai învățat lecția, poți să trăiești liber
+					și să crezi că viața mai are și alte lucruri de oferit. Când te desprinzi de cotidian,
+					ai senzația că ești mult mai puternic și mai împlinit.</p>
+				<br><br>
+				<h2>Capricornul</h2>
+				<h3>, la vârsta senectuții</h3><br>
+				<p>Metaforic vorbind, Capricornii se nasc undeva între 63 și 70 de ani,
+					cu un suflet încărcat de experiențe și trăiri, în care totul a fost cântărit,
+					analizat și vindecat. De aceea, nativii Capricorni par atât de maturi și serioși
+					și capabili să îi sprijine pe ceilalți. Ei au maturitatea și înțelepciunea necesară să
+					își construiască o bază solidă în viață, chiar dacă nu dispun de prea multe resurse.
+					Sunt ca niște alpiniști pe un munte aprig, care se bucură de priveliște, dar știu că
+					drumul este greu.</p>
+				<br><br>
+				<h2>Vărsătorul</h2>
+				<h3>, un spirit pragmatic</h3><br>
+				<p>Sufletul Vărsătorului știe că, spre sfârșitul vieții, trebuie să aștepți.
+					Când ai trăit din plin, când viața te-a încercat cu de toate, așteptarea
+					trebuie să fie armonie și echilibru. De aceea, spiritul Vărsătorilor este
+					înclinat spre reverie, dar niciodată spre acțiune. Cu toate acestea, Vărsătorii
+					știu bine până unde pot merge, sunt pragmatici și îmbină înțelepciunea cu
+					experiența acumulată.</p>
+				<br><br>
+				<h2>Peștii</h2>
+				<h3>, cei mai bătrâni și totuși fără vârstă</h3><br>
+				<p>Este ultima zodie, dar nu cea din urmă. Și este cea mai bătrână și,
+					totuși, nu are vârstă. Din punct de vedere spiritual, Peștii se află în
+					pragul evoluției supreme, când sufletul se scutură de toate poverile și
+					se simte liber să treacă spre o nouă existență. De altfel, zodiile sunt
+					dispuse în cerc pe roata zodiacului, arătând că ultima poate fi oricând cea dintâi și
+					poate relua ciclul morții și al renașterii cu forțe noi.</p>
+
+				<img src="media/costelatii2.png">
+
+
+			</div>
+
+			<div class="stg_dr">
+				<a href="2.html">
+					<div class="cutie" style="width:100px;	position:absolute; bottom:0; left:10px;">
+						<p style="font-size:22px;font-weight: 800;">Planete</p>
+					</div>
+				</a>
+			</div>
+		</div>
+
+		<footer><br><br>
+			<p style="font-size:14px;">astrolearnogy@contact.com
+				<br>©2020 created by Dariana Dorin</p>
+		</footer>
+
+	</div>
+</body>
+
+</html>

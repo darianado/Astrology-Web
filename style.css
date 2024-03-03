@@ -1,0 +1,195 @@
+:root{
+	--albastru-inchis:#376bab;
+	--albastru-deschis:#e3e5ff;
+	--albastru:#7e99bd;
+}
+body{
+	margin:0;
+	margin-top:-25px;
+	padding:0;
+	background-color:black;
+}
+header{
+	background-image: url("media/skyyy.jpg");
+	margin:0;
+	padding:0;
+	background-repeat:no-repeat;
+	height:616px;
+	background-size: 100% 101%;
+}
+h3{
+	text-align:center;
+	text-decoration:none;
+	color:var(--albastru-inchis);
+	display:inline;
+}
+h2{
+	line-height:0.1;
+	display:inline;
+}
+#titlu_bara{
+	width:22%;
+	margin:auto;
+	align:center;
+	border-radius: 0px 0px 50px 50px;
+	background-color:var(--albastru-deschis);
+	text-align:center;
+	color:black;
+	height:44px;
+
+}
+#titlu_bara:hover a{
+	text-shadow: 1px 1px 1px var(--albastru);
+}
+#titlu{
+	margin-top:175px;
+	text-align:center;
+}
+#titlu1{
+	font-family:fantasy;
+	text-shadow: 1px 1px 1px #e3e5ff;
+	font-size:40px;
+	margin:0;
+	word-spacing:5px;
+	letter-spacing:1.5px;
+	color:black;
+}
+#titlu2{
+	font-family:monospace;
+	font-style:italic;
+	text-shadow: 1px 1px 1px #e3e5ff;
+	font-size:30px;
+	margin:0;
+	bold:none;
+	color:black;
+}
+.main{
+	margin:0;
+	background-color:black;
+	overflow:auto;
+	min-height:300px;
+	display:flex;
+	
+}
+.col_marg{
+	width:33%;
+	float:left;
+	text-align:center;
+}
+.col_mij{
+	width:34%;
+	float:left;
+	text-align:center;
+}
+.stg_dr{
+	width:20%;
+	background-color:;
+	float:left;
+	text-align:center;
+	height:inherit;
+	position:relative;
+}
+.mij{
+	width:60%;
+	background-color:var(--albastru-deschis);
+	float:left;
+	text-align:justify;
+	border-radius:50px;
+	margin-bottom:50px;
+	position:relative;
+	padding:30px;
+	overflow:hidden;
+}
+.mij p{
+	font-size:large;
+}
+footer p{
+	font-size:large;
+}
+.cutie{
+    width: 300px;
+    border: 3px solid black;
+    padding:30px;
+	margin-top:80px;
+	margin-bottom:50px;
+	display: inline-block;
+	border-radius:50px;
+	background-color:#e3e5ff;
+	min-height:50px;
+}
+.cutie:hover{
+	border:3px solid #e3e5ff;
+}
+.cutie:hover h2{
+	text-shadow: 1px 1px 1px var(--albastru);
+}
+footer{
+    left: 0;
+    margin-bottom: -25px;
+	padding:10px 0px;
+    width: 100%;
+    background-image: linear-gradient(black, #9eb1ff);
+    color: black;
+    text-align: center;
+}
+a{
+	text-decoration:none;
+}
+a:link{
+	text-decoration:none;
+}
+a:visited{
+	color:black;
+}
+#astrograma{
+	float:right; 
+	width:30%; 
+	height:auto;
+	margin-left:15px;
+}
+label,select,input{
+	margin-top:22px;
+}
+select, insert, input {
+	background-color:var(--albastru-deschis);
+	border-radius:20px;
+}
+input[type=text]{
+	padding:0px 8px;
+	text-align:center;
+}
+input[type=submit]{
+	color:black;
+	border-width:1px;
+}
+*:focus {
+    outline: none;
+}
+iframe{
+	width:100%;
+	height:100%;
+	border:none;
+	float:center;
+}
+th, td{
+	border:3px dotted black;
+	border-collapse:collapse;
+}
+table{
+	border:3px solid black;
+	border-collapse:collapse;
+	width:70%;
+	height:150px;
+}
+img{
+	width:100%;
+	margin:10px;
+}
+.el_form{
+	display:inline-block;
+	margin-left:20px;
+}
+
+
+
+
